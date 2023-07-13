@@ -7,4 +7,8 @@ images:
 tags: 
   - untagged
 ---
+# Prueba de título
+
 Proof of posting
+
+## Prueba de segundo título

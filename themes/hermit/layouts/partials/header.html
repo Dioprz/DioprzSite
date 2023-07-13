@@ -1,8 +1,10 @@
-	<header id="site-header" class="animated slideInUp">
+	<header id="site-header" class="animated fadeIn">
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
-				<div class="site-branding">
-					<a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a>
+				<div style="display:inline-block;">
+					<a href="{{.Site.BaseURL}}">
+            <svg class="feather" style="vertical-align: -.225em;width: 1.3em;height: 1.3em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 9v9a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9"></path><path d="m3 10.5 8.36-6.967a1 1 0 0 1 1.28 0L21 10.5"></path></svg>
+          </a>
 				</div>
 				<nav class="site-nav hide-in-mobile">
 					{{ partialCached "menu.html" . }}

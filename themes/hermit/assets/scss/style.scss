@@ -32,6 +32,7 @@ select,
 textarea {
   color: $text;
   font-family: $fonts;
+  font-weight: 200;
 }
 
 pre,
@@ -229,7 +230,7 @@ table {
   width: 100%;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
+  background-color: $light-grey;
   animation-duration: .3s;
 }
 
@@ -314,15 +315,22 @@ table {
 }
 
 #site-footer {
+  position: fixed;
   text-align: center;
-  font-size: .9em;
-  margin-bottom: 96px;
-  margin-top: 64px;
+  font-size: .6em;
+  line-height: normal;
+  bottom: 0;
+  width: 500px;
+  margin: 5% auto; /* Only centers horizontally not vertically! */
+  left: 0;
+  right: 0;
+  @include dimmed;
 
   p {
-    margin: 0;
+    margin-top: 0;
   }
 }
+
 
 // Spotlight
 //
@@ -409,6 +417,8 @@ p.img-404 {
   font-size: .7em;
   font-style: italic;
   opacity: .9;
+  overflow-wrap: break-word;
+  width: 600px;
 }
 
 #home-social {
@@ -423,10 +433,12 @@ p.img-404 {
 
 #home-nav {
   opacity: .8;
+  margin-top: 2em;
 
   a {
     display: block;
     text-align: center;
+    // margin-top: .5em;
     margin-top: .5em;
   }
 }
@@ -491,7 +503,8 @@ p.img-404 {
 .bg-img {
   width: 100vw;
   height: 100vh;
-  opacity: .03;
+  // opacity: .03;
+  opacity: 0.4;
   z-index: -1;
   position: fixed;
   top: 0;

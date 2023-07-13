@@ -1,12 +1,14 @@
-baseURL = 'http://example.org/'
+baseURL = ''
 languageCode = 'en-us'
 defaultContentLanguage = "en"
-title = 'My New Hugo Site'
+MetaDataFormat = "toml"
+
+title = 'Hola! Soy Diego,'
 theme = 'hermit'
 
 
 [author]
-  name = "John Doe"
+  name = "Diego Ospina"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -28,9 +30,11 @@ theme = 'hermit'
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "A minimal and fast theme for Hugo."
+  homeSubtitle = "bienvenido a mi página"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  # bgImg = ""  # Homepage background-image URL
+  bgImg = "images/try_2.jpg"  # Homepage background-image URL
+  #  bgImg = "images/try_1.png"  # Homepage background-image URL
+  # bgImg = "images/try_3.jpeg"  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = "https://github.com/username/repository/commit/"
@@ -47,17 +51,14 @@ theme = 'hermit'
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/Dioprz"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/dioprz/"
 
 [menu]
 
