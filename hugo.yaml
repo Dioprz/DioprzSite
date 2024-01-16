@@ -1,11 +1,11 @@
 baseURL: 'https://dioprz.github.io/DioprzSite/'
-languageCode: 'en-us'
+# languageCode: 'en-us'
+languageCode: 'es-419'
 defaultContentLanguage: "en"
 MetaDataFormat: "yaml"
 
 title: 'Hola! Soy Diego,'
 theme: 'hermit'
-
 
 author:
   name: 'Diego Ospina'
@@ -24,7 +24,6 @@ params:
   #   -
   #   -
   themeColor: "#494f5c"
-#
   homeSubtitle: "Bienvenido/a a mi página personal. \n Te invito a explorar mi trabajo y descubrir mi pasión por la matemática aplicada y el código libre."
   footerCopyright: ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   bgImg: "images/try_2.jpg"  # Homepage background-image URL
